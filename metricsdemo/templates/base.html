@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html lang="cs">
+    <head>
+        <title>{% block title %}Metrics demo{% endblock %}</title>
+    </head>
+    <body>
+        {% block content %}
+            {% block h1 %}<h1>{% block h1-content %}Metrics demo{% endblock %}</h1>{% endblock %}
+        {% endblock %}
+    </body>
+</html>
